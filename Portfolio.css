@@ -1,4 +1,3 @@
-/* متغيرات الألوان للوضع الداكن والفاتح */
 :root {
     --bg-color: #0f172a;
     --text-color: #f8fafc;
@@ -51,7 +50,6 @@ body {
     box-shadow: 0 0 30px rgba(56, 189, 248, 0.7);
 }
 
-/* القائمة العلوية */
 nav { 
     background: var(--header-bg); 
     padding: 15px 5%; 
@@ -100,7 +98,6 @@ nav {
     color: var(--border-color); 
 }
 
-/* (Hero Section) */
 .hero {
     text-align: center;
     padding: 50px 20px;
@@ -131,7 +128,6 @@ nav {
     line-height: 1.6; 
 }
 
-/* الحاوية والتنسيقات العامة */
 .container { 
     padding: 40px 5%; 
     max-width: 1200px; 
@@ -150,7 +146,6 @@ nav {
     margin-top: 20px; 
 }
 
-/* البطاقات */
 .card { 
     background: var(--card-bg); 
     padding: 25px; 
@@ -203,7 +198,6 @@ li {
     line-height: 1.5; 
 }
 
-/* جدول المهارات */
 .skills-table {
     width: 100%;
     border-collapse: collapse;
@@ -234,7 +228,6 @@ li {
     text-decoration: none;
 }
 
-/* مفتاح تبديل الوضع (Light/Dark Toggle) */
 .theme-switch-wrapper { 
     display: flex; 
     align-items: center; 
@@ -267,7 +260,7 @@ input:checked + .slider {
 .slider .icon { 
     font-size: 12px; user-select: none; z-index: 1;
 }
-/* تنسيق شبكة المشاريع */
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -275,7 +268,6 @@ input:checked + .slider {
     margin-top: 30px;
 }
 
-/* تنسيق كارت المشروع */
 .card {
     background: #1e293b;
     padding: 25px;
@@ -308,7 +300,6 @@ input:checked + .slider {
     margin-bottom: 20px;
 }
 
-/* علامات التقنيات المستعملة (Tech Tags) */
 .tech-tag {
     display: inline-block;
     background-color: rgba(56, 189, 248, 0.1);
@@ -321,7 +312,6 @@ input:checked + .slider {
     margin-bottom: 15px;
 }
 
-/* زر عرض المشروع */
 .btn {
     display: inline-block;
     color: #38bdf8;

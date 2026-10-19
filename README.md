@@ -41,4 +41,4 @@ Welcome to my official personal portfolio website! This project showcases my jou
 ## 📫 Get In Touch
 - **Email:** mariammosa223@gmail.com
 - **GitHub:** [Mariam-Mousa223](https://github.com/Mariam-Mousa223)
-- **LinkedIn:** [حطي رابط لينكد إن هنا]
+- **LinkedIn:** https://www.linkedin.com/in/mariam-mousa-0722b2415

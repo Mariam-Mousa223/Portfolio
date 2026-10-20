@@ -50,6 +50,7 @@ body {
     box-shadow: 0 0 30px rgba(56, 189, 248, 0.7);
 }
 
+/* القائمة العلوية */
 nav { 
     background: var(--header-bg); 
     padding: 15px 5%; 
@@ -177,6 +178,17 @@ nav {
     display: inline-block; 
     margin: 5px 2px; 
 }
+.btn { 
+    display: inline-block; 
+    margin-top: 15px; 
+    color: var(--border-color);
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 0.95rem; 
+}
+.btn:hover { 
+    text-decoration: underline; 
+}
 
 ul { 
     padding-left: 20px; 
@@ -301,14 +313,16 @@ input:checked + .slider {
     margin-bottom: 15px;
 }
 
-.card .btn, 
-.card a.btn, 
-.card .btn:link, 
-.card .btn:visited {
-    color: #38bdf8 !important;
-    text-decoration: none !important;
+.btn {
+    display: inline-block;
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-top: 10px;
+    transition: color 0.2s ease;
 }
 
-.card .btn:hover {
-    color: #ffffff !important;
-}
+.btn:hover {
+    color: #818cf8;
+    }

@@ -310,9 +310,6 @@ input:checked + .slider {
     margin-top: 10px;
     transition: color 0.2s ease;
 }
-.btn:visited {
-    color:#a855f7;
-}
 
 .btn:hover {
     color: #ffffff;

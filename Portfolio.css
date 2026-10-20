@@ -178,17 +178,7 @@ nav {
     display: inline-block; 
     margin: 5px 2px; 
 }
-.btn { 
-    display: inline-block; 
-    margin-top: 15px; 
-    color: var(--border-color);
-    text-decoration: none; 
-    font-weight: bold; 
-    font-size: 0.95rem; 
-}
-.btn:hover { 
-    text-decoration: underline; 
-}
+
 
 ul { 
     padding-left: 20px; 
@@ -313,9 +303,9 @@ input:checked + .slider {
     margin-bottom: 15px;
 }
 
-.btn, .btn:link, .btn:visited {
+.btn {
     display: inline-block;
-    color: #38bdf8 !important;
+    color: #38bdf8;
     text-decoration: none;
     font-weight: 600;
     font-size: 0.95rem;
@@ -324,5 +314,6 @@ input:checked + .slider {
 }
 
 .btn:hover {
-    color: #818cf8 !important;
-}
+    color: #818cf8;
+    text-decoration: underline; 
+    }

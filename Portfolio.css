@@ -313,9 +313,9 @@ input:checked + .slider {
     margin-bottom: 15px;
 }
 
-.btn {
+.btn, .btn:link, .btn:visited {
     display: inline-block;
-    color: #38bdf8;
+    color: #38bdf8 !important;
     text-decoration: none;
     font-weight: 600;
     font-size: 0.95rem;
@@ -324,5 +324,5 @@ input:checked + .slider {
 }
 
 .btn:hover {
-    color: #818cf8;
-    }
+    color: #818cf8 !important;
+}

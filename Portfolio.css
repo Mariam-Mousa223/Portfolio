@@ -177,17 +177,6 @@ nav {
     display: inline-block; 
     margin: 5px 2px; 
 }
-.btn { 
-    display: inline-block; 
-    margin-top: 15px; 
-    color: var(--border-color);
-    text-decoration: none; 
-    font-weight: bold; 
-    font-size: 0.95rem; 
-}
-.btn:hover { 
-    text-decoration: underline; 
-}
 
 ul { 
     padding-left: 20px; 
@@ -321,7 +310,10 @@ input:checked + .slider {
     margin-top: 10px;
     transition: color 0.2s ease;
 }
+.btn:visited {
+    color:#a855f7;
+}
 
 .btn:hover {
-    color: #818cf8;
+    color: #ffffff;
 }

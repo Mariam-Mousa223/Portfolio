@@ -325,55 +325,11 @@ input:checked + .slider {
 
     
 
-  html, body {
-  overflow-x: hidden;
-  max-width: 100%;
-}
-
-@media (max-width: 768px) {
-  .nav-container {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .nav-container h2,
-  .nav-links {
-    position: static;
-    right: auto;
-    left: auto;
-  }
-
-  .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .nav-links li {
-    margin-left: 0;
-  }
-
-  .card {
-    display: block !important;
-  }
-
+  
+  @media (max-width: 768px) {
   .tech-tag {
     display: inline-block !important;
-    width: auto !important;
-    margin: 4px 6px 8px 0 !important;
-  }
-
-  .card .btn {
-    display: block !important;
-    margin-top: 14px !important;
-  }
-
-  .skills-table {
-    display: block;
-    overflow-x: auto;
-  }
-
-  .contact-link {
-    word-break: break-word;
+    width: fit-content !important;
+    max-width: max-content !important;
   }
 }

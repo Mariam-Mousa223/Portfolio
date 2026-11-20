@@ -1,4 +1,4 @@
-:root {
+  :root {
     --bg-color: #0f172a;
     --text-color: #f8fafc;
     --card-bg: #1e293b;
@@ -21,7 +21,7 @@ html {
 }
 
 body { 
-    font-family: 'Segoe UI', sans-serif; 
+    font-family: 'Segoe UI', sans-serif;
     margin: 0; 
     background-color: var(--bg-color); 
     color: var(--text-color); 
@@ -317,3 +317,46 @@ input:checked + .slider {
     color: #818cf8;
     text-decoration: underline; 
     }
+
+   
+
+
+
+
+    html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-container h2,
+  .nav-links {
+    position: static;
+    right: auto;
+    left: auto;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .nav-links li {
+    margin-left: 0;
+  }
+
+  .skills-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .contact-link {
+    word-break: break-word;
+  }
+}

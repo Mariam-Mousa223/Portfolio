@@ -323,7 +323,9 @@ input:checked + .slider {
 
 
 
-    html, body {
+    
+
+  html, body {
   overflow-x: hidden;
   max-width: 100%;
 }
@@ -349,6 +351,21 @@ input:checked + .slider {
 
   .nav-links li {
     margin-left: 0;
+  }
+
+  .card {
+    display: block !important;
+  }
+
+  .tech-tag {
+    display: inline-block !important;
+    width: auto !important;
+    margin: 4px 6px 8px 0 !important;
+  }
+
+  .card .btn {
+    display: block !important;
+    margin-top: 14px !important;
   }
 
   .skills-table {

@@ -324,12 +324,3 @@ input:checked + .slider {
 
 
     
-
-  
-  @media (max-width: 768px) {
-  .tech-tag {
-    display: inline-block !important;
-    width: fit-content !important;
-    max-width: max-content !important;
-  }
-}
